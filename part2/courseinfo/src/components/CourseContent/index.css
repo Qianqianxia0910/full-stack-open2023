@@ -1,0 +1,25 @@
+/* CSS for Course component */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(6, 5, 5);
+    margin-bottom: 10px;
+  }
+  
+  /* CSS for Total component */
+  h2 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* CSS for Part component */
+  li {
+    font-size: 18px;
+    color: #666;
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  
+  
+  
