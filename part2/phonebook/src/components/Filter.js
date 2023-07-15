@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-const Filter = ({ value, onChange }) => {
-    return (
-        <div>
-            filter shown with: {' '} <input value={value} onChange={onChange} />
-        </div>
-    )
-}
+const Filter = ({ filter, handleFilter }) => {
+  return (
+    <form>
+      Filter shown with: <input value={filter} onChange={handleFilter} />
+    </form>
+  );
+};
 export default Filter;

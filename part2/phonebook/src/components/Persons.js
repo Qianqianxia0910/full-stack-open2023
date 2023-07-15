@@ -1,8 +1,16 @@
-import React from 'react';
+import React from "react";
+import Person from "./Person";
 
-const Persons = ({ persons }) => {  
-    return(
-        <ul>{persons.map(person => <li key={person.name}>{person.name} {person.number}</li>)} </ul> 
-    )
-    }
+const Persons = ({ persons, deletePerson }) => {
+  return (
+    <div>
+      <ul>
+        {persons.map((person) => (
+          <Person key={person.id} person={person} deletePerson={deletePerson} />
+        ))}
+      </ul>
+    </div>
+  );
+};
+
 export default Persons;
